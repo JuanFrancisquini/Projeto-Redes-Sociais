@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main{
+    background-color: aqua;
+    position: relative;
+    height: 100vh;
+}
+
+section.celular{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    background: green url('');
+    transform: translate(-50%, -50%);
+}
