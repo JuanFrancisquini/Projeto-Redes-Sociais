@@ -14,7 +14,6 @@ html, body{
 body{
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 main{
@@ -31,7 +30,7 @@ section.celular{
     width: 311px;
     transform: translate(-50%, -50%);
     border-radius: 56px;
-    box-shadow: inset -5px -5px 6px rgba(0, 0, 0, 0.596);
+    box-shadow: inset -5px -3px 6px rgba(0, 0, 0, 0.47);
 }
 
 iframe{
