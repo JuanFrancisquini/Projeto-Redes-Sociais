@@ -30,4 +30,34 @@ section.celular{
     height: 627px;
     width: 311px;
     transform: translate(-50%, -50%);
+    border-radius: 56px;
+    box-shadow: inset -5px -5px 6px rgba(0, 0, 0, 0.596);
 }
+
+iframe{
+    position: absolute;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+section.redes a > img{
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.539);   
+}
+
+section.redes{
+    text-align: right;
+}
+
+section.redes a > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.527);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px black;
+    transform: translate(2px, 2px);
+    transition-duration: 0.05s;
+}
+
